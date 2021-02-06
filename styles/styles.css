@@ -1,3 +1,74 @@
 body {
 	font-family: 'Nunito Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
+.button {
+	font-size: 11px;
+	font-style: italic;
+	color: #fff;
+	background-color: #E3B873;
+	border-radius: 2px;
+	text-transform: uppercase;
+	border: none;
+}
+.column1438 {
+	width: 1438px;
+	margin: auto;
+}
+
+/*-------------------------------*/
+
+.header {
+	background-color: #131313;
+	min-width: 1438px;
+}
+.header-container {
+	display: flex;
+	height: 83px;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	color: #E3B873;
+	font-size: 11px;
+	padding-left: 92px;
+	text-transform: uppercase;
+}
+.header-navigation {
+	list-style-type: none;
+}
+.header-navigation-item {
+	display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.header-navigation-link {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header-navigation-link.active {
+	color: #E3B873;
+}
+.header-right {
+	padding-right: 90px;
+}
+.header-phone {
+	display: inline-block;
+	padding-right: 45px;
+	font-size: 11px;
+	color: #E3B873;
+}
+.button-header {
+	width: 161px;
+	height: 37px;
+}
+
+/*-------------------------------*/
+
+
+
+
+/*font-family: 'Yeseva One', cursive;*/
