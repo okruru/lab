@@ -2,6 +2,8 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	margin: 0;
+	padding: 0;
 }
 .button {
 	font-size: 11px;
@@ -68,7 +70,26 @@ body {
 
 /*-------------------------------*/
 
-
-
+.tttt {
+	background: url('../images/background1.jpg') no-repeat;
+	background-size: 100%; 
+	min-width: 1438px;
+	min-height: 704px;
+	padding-top: 100px;
+	padding-left: 100px;
+	position: relative;
+	z-index: -1;
+}
+.tttt:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.7;
+	z-index: -1;
+}
 
 /*font-family: 'Yeseva One', cursive;*/
