@@ -21,7 +21,7 @@ body {
 	border: none;
 }
 .title {
-	font-family: Yeseva One;
+	font-family: 'Yeseva One', cursive;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
@@ -29,11 +29,21 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 }
+.title2 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 37px;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+	color: #E3B873;
+}
 .button.button-transparent {
 	background-color: transparent;
 	border: solid 1px #fff;
 }
-h1 {
+h1, h2 {
 	margin: 0;
 }
 
@@ -51,6 +61,9 @@ h1 {
 }
 .margin-left-20 {
 	margin-left: 20px;
+}
+.margin-left-134 {
+	margin-left: 134px;
 }
 
 /*-------------------------------*/
@@ -124,9 +137,9 @@ h1 {
 	opacity: 0.7;
 	z-index: -1;
 }
-.screen-1 {
+/*.screen-1 {
 	margin-left: 134px;
-}
+}*/
 .screen-1-text {
 	width: 504px;
 	font-size: 22px;
@@ -136,4 +149,68 @@ h1 {
 	padding-bottom: 40px;
 }
 
-/*font-family: 'Yeseva One', cursive;*/
+.screen-background-2 {
+	background-color: #131313;
+	min-width: 1438px;
+	min-height: 1074px;
+	padding-top: 107px;
+	padding-bottom: 226px;
+}
+/*.screen-2 {
+	margin-left: 134px;
+}*/
+.screen-2-header {
+	padding-top: 70px;
+	width: 492px;
+	padding-right: 50px;
+	float: left;
+}
+.screen-2-content {
+	float: right;
+	padding-right: 132px;
+}
+.screen-2-navigation {
+	list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 0px;
+	margin-bottom: 48px;
+    margin-top: 0;
+}
+.screen-2-navigation-item {
+	flex-grow: 1;
+/*	display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;*/
+}
+.screen-2-navigation-link {
+	font-family: 'Yeseva One', cursive;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 19px;
+	letter-spacing: 0em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: 0.3;
+	display: inline-block;
+	padding-bottom: 7px;
+}
+.screen-2-navigation-link.active {
+	color: #E3B873;
+	border-bottom: solid 1px #E3B873;
+	opacity: 1;
+}
+
+
+.screen-2-content-img {
+	width: 679px;
+	height: 472px;
+}
+.screen-2-footer {
+/*	padding-top: 70px; */
+	float: left;
+	width: 492px;
+	padding-right: 50px;
+}
