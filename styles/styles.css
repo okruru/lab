@@ -1,15 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
 body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
-<<<<<<< HEAD
-=======
-}
-:focus {
-	outline: none;
->>>>>>> a79bafca60813951c65c8343d3dd59c7b330ae45
 }
 .button {
 	font-size: 11px;
@@ -24,9 +24,8 @@ body {
 	font-family: Yeseva One;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 27px;
-	line-height: 37px;
-	letter-spacing: -0.07em;
+	font-size: 40px;
+	line-height: 53px;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -34,6 +33,11 @@ body {
 	background-color: transparent;
 	border: solid 1px #fff;
 }
+h1 {
+	margin: 0;
+}
+
+
 .column1438 {
 	width: 1438px;
 	margin: auto;
@@ -41,8 +45,12 @@ body {
 .colorE3B873 {
 	color: #E3B873;
 }
-h1 {
-	margin: 0;
+.button207x51 {
+	width: 207px;
+	height: 51px;
+}
+.margin-left-20 {
+	margin-left: 20px;
 }
 
 /*-------------------------------*/
@@ -118,7 +126,14 @@ h1 {
 }
 .screen-1 {
 	margin-left: 134px;
-	width: 510px;
+}
+.screen-1-text {
+	width: 504px;
+	font-size: 22px;
+	color: #fff;
+	line-height: 36px;
+	padding-top: 19px;
+	padding-bottom: 40px;
 }
 
 /*font-family: 'Yeseva One', cursive;*/
