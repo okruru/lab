@@ -4,6 +4,12 @@ body {
 	font-style: normal;
 	margin: 0;
 	padding: 0;
+<<<<<<< HEAD
+=======
+}
+:focus {
+	outline: none;
+>>>>>>> a79bafca60813951c65c8343d3dd59c7b330ae45
 }
 .button {
 	font-size: 11px;
@@ -14,9 +20,29 @@ body {
 	text-transform: uppercase;
 	border: none;
 }
+.title {
+	font-family: Yeseva One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 37px;
+	letter-spacing: -0.07em;
+	text-transform: uppercase;
+	color: #fff;
+}
+.button.button-transparent {
+	background-color: transparent;
+	border: solid 1px #fff;
+}
 .column1438 {
 	width: 1438px;
 	margin: auto;
+}
+.colorE3B873 {
+	color: #E3B873;
+}
+h1 {
+	margin: 0;
 }
 
 /*-------------------------------*/
@@ -70,26 +96,29 @@ body {
 
 /*-------------------------------*/
 
-.tttt {
+.screen-background-1 {
 	background: url('../images/background1.jpg') no-repeat;
-	background-size: 100%; 
+	background-size: 100%;
 	min-width: 1438px;
-	min-height: 704px;
-	padding-top: 100px;
-	padding-left: 100px;
+	min-height: 707px;
+	padding-top: 194px;
 	position: relative;
 	z-index: -1;
 }
-.tttt:before {
+.screen-background-1:before {
 	content: '';
 	position: absolute;
 	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
 	background-color: #000;
 	opacity: 0.7;
 	z-index: -1;
+}
+.screen-1 {
+	margin-left: 134px;
+	width: 510px;
 }
 
 /*font-family: 'Yeseva One', cursive;*/
