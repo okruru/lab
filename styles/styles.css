@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 *:focus {
 	outline: none;
@@ -8,8 +10,6 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	margin: 0;
-	padding: 0;
 }
 .button {
 	font-size: 11px;
@@ -47,9 +47,9 @@ body {
 	background-color: transparent;
 	border: solid 1px #fff;
 }
-h1, h2, h3 {
+/*h1, h2, h3 {
 	margin: 0;
-}
+}*/
 
 
 .column1438 {
@@ -276,4 +276,36 @@ h1, h2, h3 {
 .screen-3 .title3,
 .screen-3 .column1438 {
 	text-align: center;
+}
+.screen-3-title-cam {
+	margin-bottom: 41px;
+	width: 32px;
+}
+.screen-3-title-cam ~ img {
+	margin-left: 8px;
+	margin-bottom: 41px;
+	width: 32px;
+}
+.screen-3-title-cam + img {
+	margin-top: 13px;
+	margin-left: 10px;
+	margin-bottom: 31px;
+	width: 33px;
+	height: 28px;
+}
+.screen-3-video {
+	width: 817px;
+	height: 434px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.screen-3-video + img {
+	margin-top: 62px;
+	margin-bottom: 35px;
+	width: 55px;
+}
+.screen-3-text {
+	width: 681px;
+	margin-left: auto;
+    margin-right: auto;
 }
