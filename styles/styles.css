@@ -43,7 +43,7 @@ button {
 	text-transform: uppercase;
 	color: #fff;
 }
-.button.button-transparent {
+button.button-transparent {
 	background-color: transparent;
 	border: solid 1px #fff;
 }
@@ -92,6 +92,23 @@ button {
 	bottom: 3px;
 	right: 3px;
 }
+.icon-3img {
+	margin-bottom: 41px;
+	width: 32px;
+}
+.icon-3img ~ img {
+	margin-left: 8px;
+	margin-bottom: 41px;
+	width: 32px;
+}
+.icon-3img + img {
+	margin-top: 13px;
+	margin-left: 10px;
+	margin-bottom: 31px;
+	width: 33px;
+	height: 28px;
+}
+
 
 .column1438 {
 	width: 1438px;
@@ -321,25 +338,6 @@ button {
 	margin-top: -324px;
 	text-align: center;
 }
-/*.screen-3 .title3 {
-	text-align: center;
-}*/
-.screen-3-title-cam {
-	margin-bottom: 41px;
-	width: 32px;
-}
-.screen-3-title-cam ~ img {
-	margin-left: 8px;
-	margin-bottom: 41px;
-	width: 32px;
-}
-.screen-3-title-cam + img {
-	margin-top: 13px;
-	margin-left: 10px;
-	margin-bottom: 31px;
-	width: 33px;
-	height: 28px;
-}
 .screen-3-video {
 	width: 817px;
 	height: 434px;
@@ -362,5 +360,51 @@ button {
 }
 .screen-4 {
 	margin-top: 147px;
+	text-align: center;
 }
-
+.screen-4 .title3 {
+	color: #181818;
+}
+.screen-4-content {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	width: 1236px;
+}
+.screen-4-price {
+	text-align: left;
+}
+.screen-4-price > img {
+	width: 392px;
+	height: 421px; 
+	text-align: left;
+}
+.screen-4-price-ul {
+	margin: -127px 31px 0 31px;
+	padding: 25px 29px 49px 34px;
+	text-align: left;
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.screen-4-price-ul ul {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
+	color: #959595;
+}
+.screen-4-price-ul li {
+	margin-top: 13px;
+    margin-left: 15px;
+}
+.screen-4-price button {
+	margin: -26px 0 0 31px;
+	width: 228px;
+	height: 54px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+	position: relative;
+}
