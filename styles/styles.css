@@ -650,3 +650,22 @@ button.button-transparent {
 	background: url('../images/background7.png') repeat-x;
 	height: 449px;
 }
+
+.screen-8 {
+	background: url('../images/background8.jpg') no-repeat;
+	background-size: 100%;
+	min-width: 1438px;
+	min-height: 954px;
+	position: relative;
+	z-index: 0;
+}
+.screen-8:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+	z-index: -1;
+}
