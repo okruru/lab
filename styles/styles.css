@@ -50,10 +50,8 @@ button.button-transparent {
 .input-container {
 	font-size: 13px;
 	color: rgba(54, 54, 54, 0.5);
-	width: 231px;
 	display: inline-block;
 	text-align: left;
-	margin-right: 50px;
 }
 .input-container input {
 	font-size: 14px;
@@ -91,6 +89,17 @@ button.button-transparent {
 	left: 3px;
 	bottom: 3px;
 	right: 3px;
+}
+.input-container.black {
+	color: rgba(255, 255, 255, 0.5);
+}
+.input-container.black input {
+	background-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	color: #fff;
+}
+.checkbox-container.black {
+	color: #fff;
 }
 .orange-block {
 	background: #E3B873;
@@ -369,6 +378,10 @@ button.button-transparent {
 .screen-3 .checkbox-container {
 	margin-top: 35px;
 }
+.screen-3 .input-container {
+	width: 231px;
+	margin-right: 50px;
+}
 .screen-4 {
 	margin-top: 147px;
 	text-align: center;
@@ -476,19 +489,13 @@ button.button-transparent {
 }
 .screen-4-footer-right .input-container {
 	padding: 39px 0 8px 0;
-	color: rgba(255, 255, 255, 0.5);
 	width: 100%;
 }
-.screen-4-footer-right .input-container input {
-	background-color: #131313;
-	border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-	color: #fff;
-}
+
 .screen-4-footer-right .checkbox-container {
 	text-align: left;
 	padding-top: 8px;
 	padding-bottom: 39px;
-	color: #fff;
 }
 .screen-4-footer-right button {
 	float: right;
@@ -597,9 +604,7 @@ button.button-transparent {
 	width: 376px;
 	margin-right:54px;
 	display: inline-block;
-/*	float: left;*/
 	margin-top: 39px;
-/*	margin-bottom: 159px;*/
 	text-align: left;
 	font-size: 13px;
 	line-height: 180%;
@@ -654,18 +659,60 @@ button.button-transparent {
 .screen-8 {
 	background: url('../images/background8.jpg') no-repeat;
 	background-size: 100%;
+	background-position: 0 222px;
 	min-width: 1438px;
 	min-height: 954px;
 	position: relative;
+	margin-top: -222px;
 	z-index: 0;
 }
 .screen-8:before {
 	content: '';
 	position: absolute;
-	top: 0;
+	top: 222px;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
 	z-index: -1;
+}
+.screen-8 form {
+	background: #181818;
+	width: 883px;
+	height: 445px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fff;
+	padding: 33px 181px 0 181px;
+}
+.screen-8 form h3 {
+	margin-bottom: 32px;
+}
+.screen-8 form .input-container {
+	width: 231px;
+}
+.screen-8 form .input-container:first-of-type {
+	margin-right: 59px;
+}
+.screen-8 form .input-container:nth-child(4) {
+	display: block;
+	width: 100%;
+	padding: 36px 0 45px;;
+}
+.screen-8 form button {
+	margin-top: 44px;
+}
+
+footer {
+    background-color: #131313;
+    min-width: 1438px;
+}
+.footer-container {
+	display: flex;
+    height: 133px;
+    justify-content: space-between;
+    align-items: center;
 }
