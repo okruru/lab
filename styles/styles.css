@@ -67,7 +67,7 @@ button.button-transparent {
 	color: #181818;
 }
 .checkbox-container input {
-	margin-right: 8px;
+	margin-right: 9px;
 	position: relative;
 	transform: scale(1.38);
 }
@@ -423,15 +423,12 @@ button.button-transparent {
 	margin-top: 13px;
     margin-left: 15px;
 }
-.screen-4-price button {
-	margin: -26px 0 0 31px;
+.screen-4-price .orange-block {
 	width: 228px;
 	height: 54px;
-	font-family: 'Yeseva One', cursive;
-	font-size: 18px;
-	font-style: normal;
-	text-transform: uppercase;
+	margin: -26px 0 0 31px;
 	position: relative;
+	text-align: center;
 }
 .screen-4-footer-left {
 	display: inline-block;
@@ -665,6 +662,7 @@ button.button-transparent {
 	position: relative;
 	margin-top: -222px;
 	z-index: 0;
+	padding-bottom: 65px;
 }
 .screen-8:before {
 	content: '';
@@ -705,6 +703,32 @@ button.button-transparent {
 .screen-8 form button {
 	margin-top: 44px;
 }
+.screen-8 h3.notform {
+	text-align: center;
+	margin-top: 52px;
+	margin-bottom: 26px;
+	color: #E3B873;
+}
+.screen-8 .circle-container {
+	text-align: center;
+	margin-bottom: 43px;
+}
+.screen-8 .circle-container div {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+	background: #E3B873;
+	margin-right: 15px;
+}
+.screen-8 .circle-container div img {
+	margin-top: 7px;
+}
+.screen-8 > img {
+	margin: 0 auto;
+	display: block;
+}
+
 
 footer {
     background-color: #131313;
