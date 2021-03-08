@@ -1,3 +1,32 @@
+@font-face {
+    font-family: 'icon28';
+    src: url('../fonts/icon28.eot');
+    src: url('../fonts/icon28.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icon28.woff') format('woff'),
+         url('../fonts/icon28.ttf') format('truetype'),
+         url('../fonts/icon28.svg#icon28') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='icon28-']:before{
+	display: inline-block;
+   font-family: 'icon28';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 28px;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   color: #fff;
+}
+.icon28-area:before{content:'\0041';}
+.icon28-calendar:before{content:'\0042';}
+.icon28-cam:before{content:'\0043';}
+.icon28-client:before{content:'\0044';}
+.icon28-pig:before{content:'\0045';}
+.icon28-hammer:before{content:'\0046';}
+.icon28-hr:before{content:'\0047';}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -20,28 +49,26 @@ button {
 	text-transform: uppercase;
 	border: none;
 }
-.title {
+h1,h2,h3 {
 	font-family: 'Yeseva One', cursive;
-	font-size: 40px;
-	line-height: 53px;
+	font-weight: normal;
 	text-transform: uppercase;
 	color: #fff;
 }
-.title2 {
-	font-family: 'Yeseva One', cursive;
+h1 {
+	font-size: 40px;
+	line-height: 53px;
+}
+h2 {
 	font-size: 27px;
 	line-height: 37px;
 	letter-spacing: -0.07em;
-	text-transform: uppercase;
 	color: #E3B873;
-	padding-bottom: 34px;
+/*	padding-bottom: 34px;*/
 }
-.title3 {
-	font-family: 'Yeseva One', cursive;
+h3 {
 	font-size: 20px;
 	line-height: 28px;
-	text-transform: uppercase;
-	color: #fff;
 }
 button.button-transparent {
 	background-color: transparent;
@@ -156,7 +183,7 @@ button.button-transparent {
 
 /*-------------------------------*/
 
-.header {
+header {
 	background-color: #131313;
 	min-width: 1438px;
 }
@@ -255,6 +282,9 @@ button.button-transparent {
 	font-size: 14px;
 	line-height: 27px;
 	color: #FFFFFF;
+}
+.screen-2-header h2 {
+	padding-bottom: 34px;
 }
 .screen-2-content {
 	float: right;
@@ -358,6 +388,11 @@ button.button-transparent {
 	margin-top: -324px;
 	text-align: center;
 }
+.screen-3 [class*='icon28-']:before{
+	color: #E3B873;
+	margin: 0 4px;
+	font-size: 33px;
+}
 .screen-3-video {
 	width: 817px;
 	height: 434px;
@@ -386,7 +421,7 @@ button.button-transparent {
 	margin-top: 147px;
 	text-align: center;
 }
-.screen-4 .title3 {
+.screen-4 h3 {
 	color: #181818;
 }
 .screen-4-content {
